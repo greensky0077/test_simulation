@@ -1,0 +1,39 @@
+{
+  "title": "Online Payment Lookup",
+  "form": {
+    "documentType": {
+      "label": "Document Type",
+      "placeholder": "Select document type",
+      "options": {
+        "CC": "Cédula de Ciudadanía",
+        "CE": "Cédula de Extranjería", 
+        "NIT": "NIT",
+        "PASSPORT": "Passport"
+      }
+    },
+    "documentNumber": {
+      "label": "Document Number",
+      "placeholder": "Enter document number"
+    },
+    "submit": "Consult",
+    "errors": {
+      "required": "This field is required",
+      "minLength": "Must be at least 5 characters",
+      "invalidFormat": "Only letters and numbers allowed"
+    }
+  },
+  "result": {
+    "title": "Lookup Result",
+    "reference": "Reference",
+    "timestamp": "Timestamp",
+    "query": "Query",
+    "copy": "Copy to Clipboard",
+    "newQuery": "New Query",
+    "success": "Success",
+    "error": "Error",
+    "loading": "Loading..."
+  },
+  "spinner": {
+    "loading": "Processing your request..."
+  }
+}
